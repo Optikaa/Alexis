@@ -44,3 +44,39 @@ line-height: 27px;
 .text_top{
     padding:0 0px 0 20px;
 }
+
+.section-1{
+ background-image: url(../img/background-image\ s-2.jpg);
+ height: 775px;
+ width: 1920px;
+ margin: 24px 0 0 0;
+}
+.s-1_text_top{
+display: block;
+color: #ffffff;
+font-family: "Libre Baskerville";
+font-size: 60px;
+font-weight: 400;
+line-height: 85px;
+padding: 175px 553px 450px 549px;
+text-align: center;
+}
+.s-1_button{
+width: 98px;
+height: 12px;
+color: #ffffff;
+font-family: "Poppins - Semi Bold";
+font-size: 16px;
+text-transform: uppercase;
+padding: 19px 41px;
+width: 180px;
+height: 50px;
+border-radius: 25px;
+background-color: #fc5f45;
+margin: -400px 870px 351px 870px;
+}
+.s-1_bot_img{
+}
+
+.s-1_text_botimg{
+}
