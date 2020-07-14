@@ -1,9 +1,10 @@
 body{
     width: 100%;
     max-width: 1920px;
+    font-family: "Poppins";
 }
 .conteiner{
-    min-width: 1160px;
+    max-width: 1160px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -23,7 +24,6 @@ body{
     text-align: right;
     padding: 30px 390px 30px 0px;
     color: #272727;
-    font-family: "Poppins";
     font-size: 14px;
     font-weight: 500;
     line-height: 27px;
@@ -74,13 +74,10 @@ body{
 }
 .s-1-img-3{
     padding-right: 685px;
-
 }
-
 .s-1_bot_text-center{
     display: inline-block;
     text-transform: uppercase;
-    font-family: "Poppins";
     font-weight: 500;
     font-size: 18px;
     line-height: 80px;
@@ -91,10 +88,44 @@ padding-left: 589px;
 }
 .s-1-text-2{
 color: #b27cf5;
-padding-left: 94px;
-padding-right: 70px;
+padding-left: 82px;
+padding-right: 64px;
 }
 .s-1-text-3{
 color: #feb960;
 padding-right: 588px;
+}
+.s-3_img-left{
+width: 555px;
+height: 700px;
+padding:149px 0px 151px 390px ;
+}
+.s-3_text-right{
+width: 652px;
+height: 550px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+background-color: #ffffff;
+}
+.text_top{
+color: #313131;
+font-family: "Libre Baskerville";
+font-size: 50px;
+font-weight: 700;
+line-height: 80.02px;
+padding: 94px 318px 48px 75px;
+}
+.text_bot{
+color: #616161;
+font-size: 15px;
+font-weight: 400;
+line-height: 27.01px;
+padding: 0px 83px 46px 83px;
+}
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.s-3_text-right{
+    margin: 224px 390px 226px 0px ;  
 }
