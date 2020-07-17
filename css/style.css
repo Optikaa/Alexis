@@ -13,6 +13,12 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+.flex-center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header-nav{
     display: flex;
     justify-content: space-between;
@@ -29,100 +35,69 @@ body{
 }
 .menu-item{
     display: inline-block;
+    margin-left: 20px;
 }
 .menu-item-link,
 .menu-item-link:visited,
 .menu-item-link:active {
-    padding:0 0px 0 22px;
     color: #272727;
 }
 .section-1{
-    background-image: url(../img/background-image\ s-2.jpg);
-width: 1920px;
-height: 850px;
-background-color: rgba(38, 39, 50, 0.85);
+    background-image: url(../img/background-image-s-2.jpg);
+    height: calc(100vh - 75px);
+    background-color: rgba(38, 39, 50, 0.85);
 }
-.s-1_text_top{
+.main-baner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.baner-title{
     color: #ffffff;
     font-family: "Libre Baskerville";
     font-size: 60px;
     font-weight: 400;
     line-height: 85px;
-    padding: 175px 553px 450px 549px;
     text-align: center;
+    margin-bottom: 50px;
+    max-width: 820px;
 }
-.s-1_button{
-    width: 98px;
-    height: 12px;
+.orange-button{
     color: #ffffff;
-    font-family: "Poppins - Semi Bold";
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
     padding: 19px 41px;
-    width: 180px;
-    height: 50px;
     border-radius: 25px;
     background-color: #fc5f45;
-    margin: -374px 870px 83px 870px;
+    margin-bottom: 80px;    
 }
-.s-1_bot_img-center{
-    display: inline-block;
+.banner-icons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
-.s-1-img-1{
-    padding-left: 668px;
+.banner-icons-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
 }
-.s-1-img-2{
-    padding-right: 214px;
-    padding-left: 214px;
+.banner-icons-image{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 40px;
 }
-.s-1-img-3{
-    padding-right: 685px;
+.purple{
+    color: #b27cf5;
 }
-.s-1_bot_text-center{
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 80px;
+.green{
+    color: #38c695;
 }
-.s-1-text-1{
-color: #38c695;
-padding-left: 589px;
-}
-.s-1-text-2{
-color: #b27cf5;
-padding-left: 82px;
-padding-right: 64px;
-}
-.s-1-text-3{
-color: #feb960;
-padding-right: 588px;
-}
-.s-3_img-left{
-width: 555px;
-height: 700px;
-padding:149px 0px 151px 390px ;
-}
-.s-3_text-right{
-width: 652px;
-height: 550px;
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-background-color: #ffffff;
-}
-.s-2-text_top{
-color: #313131;
-font-family: "Libre Baskerville";
-font-size: 50px;
-font-weight: 700;
-line-height: 80.02px;
-padding: 94px 318px 48px 75px;
-}
-.s-2-text_bot{
-color: #616161;
-font-size: 15px;
-font-weight: 400;
-line-height: 27.01px;
-padding: 0px 83px 46px 83px;
+.yellow{
+    color: #feb960;
 }
 .section-2{
     display: flex;
