@@ -142,4 +142,31 @@ body {
     line-height: 27.01px;
 }
 .about-wraper-text .textbot {
-    margin-top: 40px;;
+    margin-top: 40px;
+}
+.section-3 {
+    background-image: url(../img/1200x500.jpg);
+    width: 1920px;
+    height: 500px;
+}
+.Explore { 
+    text-align: center;
+}
+.Explore-texttop {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 80px;
+    margin-bottom: 33px;
+}
+.Explore-img {
+    width: 80px;
+    height: 80px;
+}
+.Explore-textbottom {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 80px;
+    margin-top: 41px;
+}
