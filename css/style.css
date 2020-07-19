@@ -198,7 +198,6 @@ body {
 .portfolio-img {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-end;
     margin-top: 80px;
 }
 .portfolio-img img {
