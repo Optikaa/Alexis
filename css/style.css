@@ -24,9 +24,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.header-nav-left {
-
-}
 .header-nav-right {
     text-align: right;
     font-size: 14px;
@@ -99,9 +96,6 @@ body {
 .yellow {
     color: #feb960;
 }
-.section-2 {
-
-}
 .about-wraper-lines {
     display: flex;
 }
@@ -124,7 +118,9 @@ body {
 .about-wraper-text {
     padding: 80px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-    background-color: #ffffff;
+    background-image: url(../img/2-layers.jpg);
+}
+.about-wraper-right {
     margin-left: -60px;
 }
 .about {
@@ -144,6 +140,11 @@ body {
 .about-wraper-text .textbot {
     margin-top: 40px;
 }
+.section-2 {
+    width: 1920px;
+    height: 1000px;
+    background-color: #ffffff;
+}
 .section-3 {
     background-image: url(../img/1200x500.jpg);
     width: 1920px;
@@ -153,30 +154,27 @@ body {
     text-align: center;
 }
 .Explore-texttop {
+    display: block;
     color: #ffffff;
     font-size: 30px;
     font-weight: 400;
-    line-height: 80px;
     margin-bottom: 33px;
 }
 .Explore-img {
     width: 80px;
     height: 80px;
+    margin-bottom: 40px;
 }
 .Explore-textbottom {
+    display: block;
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
-    line-height: 80px;
-    margin-top: 41px;
 }
 .section-4 {
     width: 1920px;
     height: 1385px;
-    background-color: #ffffff;
-}
-.portfolio {
-
+    background-image: url(../img/3-layers.jpg);
 }
 .portfolio-text {
     text-align: center;
@@ -186,22 +184,155 @@ body {
     font-family: "Libre Baskerville";
     font-size: 50px;
     font-weight: 700;
-    line-height: 80px;
-    margin-top: 140px;
+    padding-top: 140px;
+    margin-bottom: 40px;
 }
 .portfolio-text-bottom {
     color: #616161;
     font-size: 18px;
     font-weight: 400;
-    line-height: 80px;
 }
 .portfolio-img {
     display: flex;
     flex-wrap: wrap;
     margin-top: 80px;
 }
-.portfolio-img img {
-    width: 360px;
-    height: 288px;
+.ptoject_top { 
+    display: inline-block;
     margin: 7px;
+}
+.project_img {
+    width: 360px;
+    height: 220px;
+}
+.project_textbot {
+    display: inline-block;
+    color: #313131;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 120px;
+}
+.ptoject-spaceimg {
+   margin: 7px; 
+}
+.section-5 {
+    width: 1920px;
+    height: 1226px;
+    background-color: #f7f7f7;
+}
+.team-text {
+    text-align: center;
+}
+.team-text-top {
+    color: #313131;
+    font-family: "Libre Baskerville";
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.team-text-bottom {
+    color: #616161;
+    font-size: 18px;
+    font-weight: 400;
+}
+.team-img {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 75px;
+}
+.team-img img {
+    width: 263px;
+    height: 350px;
+}
+.about-bennet {
+    width: 1100px;
+    height: 391px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+.triangle { 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 30px 40px 30px;
+    border-color: transparent transparent #ffffff transparent;
+}
+
+.bennet-img_right {
+    width: 36px;
+    height: 36px;
+}
+.bennet-line {
+    width: 2px;
+    height: 151px;
+    background-color: #efefef;
+}
+.internet-info-text {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
+}
+.internet-info-img {
+    width: 15px;
+    height: 15px;
+}
+.lost-section3 {
+    width: 1920px;
+    height: 824px;
+    background-image: url(../img/lostS-3.jpg);
+}
+.focus_img {
+    width: 50px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-top: 65px;
+}
+.focus_texttop {
+    color: #313131;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.focus_textbot {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.focus_bot {
+    width: 260px;
+    height: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+.focus-text {
+    text-align: center;
+    margin-top: 80px;
+}
+.focus-text-top {
+    color: #313131;
+    font-family: "Libre Baskerville";
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 140px;
+}
+.focus-text-bottom {
+    color: #616161;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about-focus-lines {
+    display: flex;
+}
+.about-focus-lines span {
+    width: 260px;
+    height: 3px;  
+}
+.focus {
+    display: flex;
+    justify-content: center;
+}
+.focus-case {
+    margin-right: 30px;
 }
