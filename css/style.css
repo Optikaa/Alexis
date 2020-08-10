@@ -215,67 +215,6 @@ body {
 .ptoject-spaceimg {
    margin: 7px; 
 }
-.section-5 {
-    width: 1920px;
-    height: 1226px;
-    background-color: #f7f7f7;
-}
-.team-text {
-    text-align: center;
-}
-.team-text-top {
-    color: #313131;
-    font-family: "Libre Baskerville";
-    font-size: 50px;
-    font-weight: 700;
-    margin-bottom: 80px;
-}
-.team-text-bottom {
-    color: #616161;
-    font-size: 18px;
-    font-weight: 400;
-}
-.team-img {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 75px;
-}
-.team-img img {
-    width: 263px;
-    height: 350px;
-}
-.about-bennet {
-    width: 1100px;
-    height: 391px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-    background-color: #ffffff;
-}
-.triangle { 
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 30px 40px 30px;
-    border-color: transparent transparent #ffffff transparent;
-}
-
-.bennet-img_right {
-    width: 36px;
-    height: 36px;
-}
-.bennet-line {
-    width: 2px;
-    height: 151px;
-    background-color: #efefef;
-}
-.internet-info-text {
-    color: #616161;
-    font-size: 15px;
-    font-weight: 400;
-}
-.internet-info-img {
-    width: 15px;
-    height: 15px;
-}
 .lost-section3 {
     width: 1920px;
     height: 824px;
@@ -335,4 +274,142 @@ body {
 }
 .focus-case {
     margin-right: 30px;
+}
+.team-img-one {
+    width: 263px;
+    height: 270px;
+    margin-bottom: 17px;
+}
+.team_text_one {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+.team_text_two {
+    color: #616161;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.textteam {
+    display: block;
+    text-align: center;
+}
+.team_image {
+    width: 263px;
+    height: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+.section-5 {
+    width: 1920px;
+    height: 1226px;
+    background-image: url(../img/4-layers.jpg);
+}
+.team-text {
+    text-align: center;
+}
+.team-text-top {
+    color: #313131;
+    font-family: "Libre Baskerville";
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 150px;
+}
+.team-text-bottom {
+    display: block;
+    color: #616161;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+.about-bennet {
+    width: 1140px;
+    height: 390px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 30px 40px 30px;
+    border-color: transparent transparent #ffffff transparent;
+    margin-left: 100px;
+}
+.bennet-img_right {
+    width: 36px;
+    height: 36px;
+}
+.bennet-line {
+    width: 2px;
+    height: 151px;
+    background-color: #efefef;
+}
+.internet-info-text {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
+}
+.internet-info-img {
+    width: 15px;
+    height: 15px;
+}
+.team_lost {
+    display: flex;
+    text-align: center;
+}
+.team_red {
+    color: #fc5f45;
+}
+.team_green {
+    color: #38c695;
+}
+.team_purple {
+    color: #b27cf5;
+}
+.team_yellow {
+    color: #feb960;
+}
+.team_image {
+    margin-right: 30px;
+}
+.bennet-text_top {
+    color: #272727;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    
+}
+.bennet-text_bottom {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
+    width: 634px;
+    height: 151px;
+    line-height: 27px;
+}
+.bennet-text {
+    margin: 100px 100px 70px 90px;
+}
+.internet-info {
+    display: flex;
+    align-items: center;
+}
+.bennet-line {
+    margin-left: 30px ;
+    margin-right: 20px ;
+}
+.img_bennet_info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.internet-info-text {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
 }
