@@ -808,3 +808,83 @@ body {
     font-size: 13px;
     font-weight: 400;
 }
+.section-10 {
+    background-image: url(../img/section-8.jpg);
+    width: auto;
+    height: 1050px;
+}
+.selecttext {
+    text-align: center;
+    padding-top: 144px; ;
+}
+.selecttext1 {
+    color: #313131;
+    font-family: "Libre Baskerville";
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.selecttext2 {
+    display: inline-block;
+    color: #616161;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 78px;
+}
+.selectcenter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 164px;
+}
+.selectbottomtext {
+    color: #272727;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 23px;
+}
+.selectbottom {
+    display: inline-block;
+    width: 181px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #fc5f45;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Poppins - Semi Bold";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 19px;
+}
+.select-1 {
+    display: inline-block;
+    width: 78px;
+    height: 41px;
+    color: #272727;
+    font-size: 18px;
+    font-weight: 500;
+}
+.selecttext-1 {
+    width: 320px;
+    max-height: 80px;
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 73px;
+}
+.select-img {
+    margin-right: 14px;
+    margin-bottom: 33px;
+}
+.select-center {
+    margin-right: 75px;
+}
+.selecttext-2 {
+    width: 320px;
+    max-height: 80px;
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+}
