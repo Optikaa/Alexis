@@ -141,7 +141,8 @@ body {
     margin-top: 40px;
 }
 .section-2 {
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     height: 1000px;
     background-color: #ffffff;
 }
@@ -172,7 +173,8 @@ body {
     font-weight: 400;
 }
 .section-4 {
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     height: 1385px;
     background-image: url(../img/3-layers.jpg);
 }
@@ -200,23 +202,37 @@ body {
 .ptoject_top { 
     display: inline-block;
     margin: 7px;
+    position: relative;
+    overflow: hidden;
 }
+
+.ptoject_top:hover .project_textbot {
+    bottom: 0;
+}
+
 .project_img {
     width: 360px;
     height: 220px;
 }
 .project_textbot {
-    display: inline-block;
+    display: block;
     color: #313131;
     font-size: 18px;
     font-weight: 500;
     padding: 20px 120px;
+    position: absolute;
+    bottom: -40px;
+    transition: all .3s ease-in;
 }
 .ptoject-spaceimg {
    margin: 7px; 
 }
+.line-3 {
+    height: 3px;
+}
 .lost-section3 {
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     height: 824px;
     background-image: url(../img/lostS-3.jpg);
 }
@@ -224,7 +240,6 @@ body {
     width: 50px;
     height: 40px;
     margin-bottom: 30px;
-    margin-top: 65px;
 }
 .focus_texttop {
     color: #313131;
@@ -243,10 +258,10 @@ body {
     height: 350px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
+    padding: 60px 30px;
 }
 .focus-text {
     text-align: center;
-    margin-top: 80px;
 }
 .focus-text-top {
     color: #313131;
@@ -275,6 +290,9 @@ body {
 .focus-case {
     margin-right: 30px;
 }
+.focus-case:last-child {
+    margin-right: 0;
+}
 .team-img-one {
     width: 263px;
     height: 270px;
@@ -302,7 +320,8 @@ body {
     background-color: #ffffff;
 }
 .section-5 {
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     height: 1226px;
     background-image: url(../img/4-layers.jpg);
 }
@@ -324,46 +343,29 @@ body {
     font-weight: 400;
     margin-bottom: 75px;
 }
-.about-bennet {
-    width: 1140px;
-    height: 390px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-around;
-}
 .triangle {
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 0 30px 40px 30px;
     border-color: transparent transparent #ffffff transparent;
-    margin-left: 100px;
-}
-.bennet-img_right {
-    width: 36px;
-    height: 36px;
-    margin-top: 180px;
+    left: 100px;
+    position: relative;
+    top: 5px;
+    z-index: 5;
 }
 .bennet-line {
     width: 2px;
     height: 151px;
     background-color: #efefef;
 }
-.internet-info-text {
-    display: inline-block;
-    color: #616161;
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 15px;
-}
 .internet-info-img {
     width: 15px;
     height: 15px;
-    margin-top: 15px;
 }
 .team_lost {
     display: flex;
+    justify-content: space-between;
     text-align: center;
 }
 .team_red {
@@ -378,44 +380,56 @@ body {
 .team_yellow {
     color: #feb960;
 }
-.team_image {
-    margin-right: 30px;
+.bennet-line {
+    margin-left: 30px ;
+    margin-right: 20px ;
+}
+.bennet-info {
+    padding: 75px 100px;
+    max-width: 1100;
+    width: 100%;
+    height: 391px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+.bennet-img_right {
+    width: 36px;
+    height: 36px;
 }
 .bennet-text_top {
     color: #272727;
     font-size: 20px;
     font-weight: 500;
+}
+.bennet-top {
     margin-bottom: 30px;
-    
+}
+.bennet-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .bennet-text_bottom {
     color: #616161;
     font-size: 15px;
     font-weight: 400;
-    width: 634px;
     height: 151px;
     line-height: 27px;
-}
-.bennet-text {
-    margin: 100px 100px 70px 90px;
-}
-.internet-info {
-    display: flex;
-    align-items: center;
-}
-.bennet-line {
-    margin-left: 30px ;
-    margin-right: 20px ;
-    margin-top: 120px;
+    margin-right: 110px;
 }
 .img_bennet_info {
-    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
 }
 .internet-info-text {
     color: #616161;
     font-size: 15px;
-    font-weight: 400;
-    margin-left: 6px;
+    font-weight: 400
+}
+.internet-info-text::before {
+    display: inline-block;
+    content: url(../img/instagram.svg);
+    margin-right: 3px;
 }
 .section-6 {
     background-image: url(../img/coffe.jpg);
@@ -458,4 +472,79 @@ body {
 .coffe-p-img-bot {
     width: 15px;
     height: 16px;
+}
+.section-7 {
+    background-image: url(../img/work-steps-bg.jpg);
+    width: auto;
+    height: 1726px;
+}
+.work_steptext {
+    text-align: center;
+    padding-top: 140px;
+}
+.work_steptext-top {
+    color: #313131;
+    font-family: "Libre Baskerville";
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+.work_steptext-bottom {
+    display: inline-block;
+    color: #616161;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 128px;
+}
+.work_stepimg_center{
+    display: flex;
+    flex-direction: column;
+}
+.work_stepimg{
+    width: 556px;
+    height: 300px;
+}
+.project_understanding {
+    padding: 57px 70px;
+    text-align: left;
+    position: absolute;
+    height: 301px;
+    width: 458px;
+    z-index: 5;
+    background-repeat: no-repeat;
+}
+.pu-texttop {
+    color: #272727;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.pu-textbottom {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.workstep_center {
+    position: relative;
+}
+.project_understanding1 {
+    background-image: url(../img/pj-1.png);
+    right: 390px;
+    bottom: 50px;
+}
+.project_understanding2 {
+    background-image: url(../img/pj-2.png);
+    left: 390px;
+    bottom: 50px;
+}
+.project_understanding3 {
+    background-image: url(../img/pj-3.png);
+    right: 390px;
+    bottom: 50px;
+}
+.project_understanding4 {
+    background-image: url(../img/pj-4.jpg);
+    left: 390px;
+    bottom: 50px;
 }
