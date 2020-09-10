@@ -551,7 +551,7 @@ body {
 .section-8 {
     background-image: url(../img/section-6.png);
     width: auto;
-    height:1049px;;
+    height:1049px;
 }
 .pricing-top {
     color: #313131;
@@ -745,4 +745,66 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     color: #b27cf5;
+}
+.section-9 {
+    background-image: url(../img/section-7.jpg);
+    width: auto;
+    height: 874px;
+}
+.testimonials-top {
+    color: #ffffff;
+    font-family: "Libre Baskerville";
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.testimonials-bottom {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.testimonials-text {
+    text-align: center;
+    padding-top: 135px;
+}
+.testimonials-imgleft {
+    width: 384px;
+    height: 399px;
+}
+.testimonials-textright {
+    background-image: url(../img/s-7pps.png);
+    width: 755px;
+    height: 312px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 55px;
+}
+.testimonials-textright1 {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 27px;
+}
+.testimonials-textright2 {
+    color: #272727;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.testimonials-textright3 {
+    color: #272727;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+.testimonials-textright4 {
+    color: #fc5f45;
+    font-size: 13px;
+    font-weight: 400;
 }
