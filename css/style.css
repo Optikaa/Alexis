@@ -548,3 +548,201 @@ body {
     left: 390px;
     bottom: 50px;
 }
+.section-8 {
+    background-image: url(../img/section-6.png);
+    width: auto;
+    height:1049px;;
+}
+.pricing-top {
+    color: #313131;
+    font-family: "Libre Baskerville";
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+.pricing-bottom {
+    display: inline-block;
+    color: #616161;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+.pricing-text {
+    text-align: center;
+    padding-top: 145px;
+}
+.category {
+    display: flex;
+    justify-content: center;
+}
+.starter {
+    width: 360px;
+    height: 575px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 35px 80px;
+}
+.ultimate {
+    width: 360px;
+    height: 575px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 35px 80px;
+}
+.professional {
+    width: 360px;
+    height: 575px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 35px 80px;
+}
+.category-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.category1 {
+    margin-right: 30px;
+}
+.category2 {
+    margin-right: 30px;
+}
+.column-starter8 {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #38c695;
+    background-color:white;
+    text-align: center;
+    padding-top: 17px;
+    font-family: "Poppins - Semi Bold";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:#38c695;
+}
+.column-starter1 {
+    color: #313131;
+    font-size: 20px;
+    font-weight: 500;
+}
+.column-starter2::before {
+    content:"200GB";
+    font-size: 15px;
+    color: #272727;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.column-starter3::before {
+    content:"20";
+    font-size: 15px;
+    color: #272727;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.column-starter4::before {
+    content:"2TB";
+    font-size: 15px;
+    color: #272727;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.column-starter::before {
+    content:"✓";
+    font-size: 15px ;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.column-circle {
+    width: 106px;
+    height: 106px;
+    box-shadow: 0 0 0 3px #38c695;
+    border: 3px solid #ffffff;
+    background-color: #38c695;
+    background-color: #38c695;
+    border-radius: 50% ;
+    text-align: center;
+    padding-top: 30px; 
+}
+.circle-starter1 {
+    font-size: 25px;
+    color: #ffffff;
+}
+.circle-starter2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.column2-starter2::before {
+    content:"800GB";
+    font-size: 15px;
+    color: #272727;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.column2-starter3::before {
+    content:"Unlimited";
+    font-size: 15px;
+    color: #272727;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.column2-starter4::before {
+    content:"10TB";
+    font-size: 15px;
+    color: #272727;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.column-circle2 {
+    width: 106px;
+    height: 106px;
+    box-shadow: 0 0 0 3px #fc5f45;
+    border: 3px solid #ffffff;
+    background-color: #fc5f45;
+    background-color: #fc5f45;
+    border-radius: 50% ;
+    text-align: center;
+    padding-top: 30px; 
+}
+.column2-starter8 {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #fc5f45;
+    text-align: center;
+    padding-top: 17px;
+    font-family: "Poppins - Semi Bold";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.column-circle3 {
+    width: 106px;
+    height: 106px;
+    box-shadow: 0 0 0 3px #b27cf5;
+    border: 3px solid #ffffff;
+    background-color: #b27cf5;
+    background-color: #b27cf5;
+    border-radius: 50% ;
+    text-align: center;
+    padding-top: 30px; 
+}
+.column3-starter8 {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid  #b27cf5;
+    background-color:white;
+    text-align: center;
+    padding-top: 17px;
+    font-family: "Poppins - Semi Bold";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #b27cf5;
+}
