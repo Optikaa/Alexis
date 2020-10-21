@@ -888,3 +888,134 @@ body {
     font-weight: 400;
     line-height: 27px;
 }
+.section-11 {
+    background-image: url(../img/section-09.jpg);
+    width: 1920px;;
+    height: 1151px;
+}
+.blog_center {
+    height: 703px;
+    width: 1168px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.imgdata {
+    width: 555px;
+    height: 443px;
+}
+.dataimg-1 {
+    color: #fc5f45;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.dataimg-2 {
+    opacity: 0.7;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+}
+.imgdata_text {
+    margin-top: -35px;
+    margin-left: 50px;
+}
+.blog-info-left{
+    width: 555px;
+    height: 232px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 30px 50px;
+}
+.blog-text-top {
+    color: #272727;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.blog-text-bottom {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+.link-left-1 {
+    color: #272727;
+    font-family: "Poppins Medium";
+    font-weight: 500;
+}
+.blog-info-right {
+    width: 555px;
+    height: 210px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 33px 50px 33px 38px;
+}
+.blog-linedown {
+    margin-bottom: 20px;
+}
+.blog-right_0 {
+    color: #616161;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+}
+.blog-right_1 {
+    color: #38c695;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+}
+.blog-right_2 {
+    color: #b27cf5;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+}
+.blog-right_3 {
+    color: #feb960;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+}
+.link-right-1 {
+    color: #38c695;
+    font-family: "Poppins Medium";
+    font-weight: 500;
+}
+.link-right-2 {
+    color: #b27cf5;
+    font-family: "Poppins Medium";
+    font-weight: 500;
+}
+.link-right-3 {
+    color: #feb960;
+    font-family: "Poppins Medium";
+    font-weight: 500;
+}
+.blog-text-righttop {
+    color: #272727;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blog-text-rightbot {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
