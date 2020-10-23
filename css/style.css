@@ -1,3 +1,5 @@
+@import url(fonts.css);
+
 body {
     width: 100%;
     max-width: 1920px;
@@ -40,6 +42,8 @@ body {
     color: #272727;
 }
 .section-1 {
+    width: 100%;
+    max-width: 1920px;
     background-image: url(../img/background-image-s-2.jpg);
     height: calc(100vh - 75px);
     background-color: rgba(38, 39, 50, 0.85);
@@ -147,8 +151,9 @@ body {
     background-color: #ffffff;
 }
 .section-3 {
+    max-width: 1920px;
     background-image: url(../img/1200x500.jpg);
-    width: 1920px;
+    width: 100%;
     height: 500px;
 }
 .Explore { 
@@ -209,7 +214,6 @@ body {
 .ptoject_top:hover .project_textbot {
     bottom: 0;
 }
-
 .project_img {
     width: 360px;
     height: 220px;
@@ -452,7 +456,8 @@ body {
 }
 .section-6 {
     background-image: url(../img/coffe.jpg);
-    width: auto;
+    max-width: 1920px;
+    width: 100%;
     height: 464px;
 }
 .coffe-project {
@@ -494,7 +499,8 @@ body {
 }
 .section-7 {
     background-image: url(../img/work-steps-bg.jpg);
-    width: auto;
+    max-width: 1920px;
+    width: 100%;
     height: 1726px;
 }
 .work_steptext {
@@ -569,8 +575,9 @@ body {
 }
 .section-8 {
     background-image: url(../img/section-6.png);
-    width: auto;
-    height:1049px;
+    max-width: 1920px;
+    width: 100%;
+    height: 1049px;
 }
 .pricing-top {
     color: #313131;
@@ -767,7 +774,8 @@ body {
 }
 .section-9 {
     background-image: url(../img/section-7.jpg);
-    width: auto;
+    max-width: 1920px;
+    width: 100%;
     height: 874px;
 }
 .testimonials-top {
@@ -789,18 +797,22 @@ body {
     padding-top: 135px;
 }
 .testimonials-imgleft {
+    position: relative;
+    z-index: 1;
     width: 384px;
     height: 399px;
 }
 .testimonials-textright {
+    position: relative;
+    left: -65px;
     background-image: url(../img/s-7pps.png);
-    width: 755px;
+    width: 822px;
     height: 312px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    padding: 40px 55px;
+    padding: 40px 75px 40px 120px;
 }
 .testimonials-textright1 {
     color: #616161;
@@ -829,7 +841,8 @@ body {
 }
 .section-10 {
     background-image: url(../img/section-8.jpg);
-    width: auto;
+    max-width: 1920px;
+    width: 100%;
     height: 1050px;
 }
 .selecttext {
@@ -909,7 +922,8 @@ body {
 }
 .section-11 {
     background-image: url(../img/section-09.jpg);
-    width: 1920px;;
+    max-width: 1920px;
+    width: 100%;
     height: 1151px;
 }
 .blog_center {
@@ -1039,7 +1053,8 @@ body {
     text-align: left;
 }
 .section-12 {
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     height: 425px;
     background-color: #ffffff;
 }
@@ -1084,7 +1099,8 @@ body {
 }
 .footer {
     background-image: url(../img/footer-img.png);
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     height: 1278px;
 }
 .footer_text1 {
@@ -1093,7 +1109,7 @@ body {
     font-size: 50px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom:   40px;
     padding-top: 150px;
 }
 .footer_text2 {
@@ -1214,3 +1230,5 @@ body {
 .footer_linedown {
     width: 1139px;   
 }
+
+@import url(media.css);
