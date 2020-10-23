@@ -272,9 +272,11 @@ body {
     padding-top: 140px;
 }
 .focus-text-bottom {
+    display: inline-block;
     color: #616161;
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 80px;
 }
 .about-focus-lines {
     display: flex;
@@ -385,12 +387,8 @@ body {
     margin-right: 20px ;
 }
 .bennet-info {
-    padding: 75px 100px;
-    max-width: 1100;
-    width: 100%;
-    height: 391px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
 }
 .bennet-img_right {
     width: 36px;
@@ -400,36 +398,57 @@ body {
     color: #272727;
     font-size: 20px;
     font-weight: 500;
-}
-.bennet-top {
-    margin-bottom: 30px;
-}
-.bennet-bot {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-bottom: 33px;
 }
 .bennet-text_bottom {
     color: #616161;
     font-size: 15px;
     font-weight: 400;
-    height: 151px;
     line-height: 27px;
-    margin-right: 110px;
+}
+.bennet_case_left {
+    float: left;
+    height: 200px;
+    width: 640px;
+}
+.about-bennet {
+    padding: 75px 90px;
+    width: 1140px;
+    height: 391px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
 }
 .img_bennet_info {
     display: flex;
     flex-direction: column;
 }
+.bennet_case_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 33px;   
+}
 .internet-info-text {
     color: #616161;
     font-size: 15px;
-    font-weight: 400
+    font-weight: 400;
+    margin-top: 15px;
 }
-.internet-info-text::before {
-    display: inline-block;
+.imgbennet-left-1::before {
+    content: url(../img/facebook.svg);
+    margin-right: 5px;  
+}
+.imgbennet-left-2::before {
+    content: url(../img/twitter.svg);
+    margin-right: 5px;  
+}
+.imgbennet-left-3::before {
+    content: url(../img/bennet_LN.svg);
+    margin-right: 5px;  
+}
+.imgbennet-left-4::before {
     content: url(../img/instagram.svg);
-    margin-right: 3px;
+    margin-right: 5px;  
 }
 .section-6 {
     background-image: url(../img/coffe.jpg);
