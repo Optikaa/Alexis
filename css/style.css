@@ -11,9 +11,10 @@ body {
     background-color: #ffffff;
 }
 .container {
-    max-width: 1122px;
+    max-width: 1155px;
     width: 90%;
     margin: 0 auto;
+    padding: 0 2px ;
 }
 .flex-center {
     height: 100%;
@@ -417,10 +418,10 @@ body {
 }
 .about-bennet {
     padding: 75px 90px;
-    width: 1140px;
+    width: 1120px;
     height: 391px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-    background-color: #ffffff;
+    background-color:    #ffffff;
 }
 .img_bennet_info {
     display: flex;
@@ -628,10 +629,10 @@ body {
     justify-content: space-between;
 }
 .category1 {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .category2 {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .column-starter8 {
     display: inline-block;
@@ -931,7 +932,7 @@ body {
     width: 1168px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .imgdata {
     width: 555px;

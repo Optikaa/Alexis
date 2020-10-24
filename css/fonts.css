@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@400;500;600&family=Sacramento&display=swap');
+
+@font-face {
+	font-family: 'Conv_Sacramento-Regular';
+	src: url('fonts/Sacramento-Regular.eot');
+	src: local('☺'), url('fonts/Sacramento-Regular.woff') format('woff'), url('fonts/Sacramento-Regular.ttf') format('truetype'), url('fonts/Sacramento-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Poppins-SemiBold';
+	src: url('fonts/Poppins-SemiBold.eot');
+	src: local('☺'), url('fonts/Poppins-SemiBold.woff') format('woff'), url('fonts/Poppins-SemiBold.ttf') format('truetype'), url('fonts/Poppins-SemiBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Poppins-Regular';
+	src: url('fonts/Poppins-Regular.eot');
+	src: local('☺'), url('fonts/Poppins-Regular.woff') format('woff'), url('fonts/Poppins-Regular.ttf') format('truetype'), url('fonts/Poppins-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Poppins-Medium';
+	src: url('fonts/Poppins-Medium.eot');
+	src: local('☺'), url('fonts/Poppins-Medium.woff') format('woff'), url('fonts/Poppins-Medium.ttf') format('truetype'), url('fonts/Poppins-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_LibreBaskerville-Regular';
+	src: url('fonts/LibreBaskerville-Regular.eot');
+	src: local('☺'), url('fonts/LibreBaskerville-Regular.woff') format('woff'), url('fonts/LibreBaskerville-Regular.ttf') format('truetype'), url('fonts/LibreBaskerville-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_LibreBaskerville-Bold';
+	src: url('fonts/LibreBaskerville-Bold.eot');
+	src: local('☺'), url('fonts/LibreBaskerville-Bold.woff') format('woff'), url('fonts/LibreBaskerville-Bold.ttf') format('truetype'), url('fonts/LibreBaskerville-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
